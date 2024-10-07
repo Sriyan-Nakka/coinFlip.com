@@ -1,0 +1,15 @@
+{
+    "name": "Coin Flip",
+    "description": "Flip a coin to get head or tail.",
+    "version": "1.2",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "128": "Icons/128.png",
+        "48": "Icons/48.png",
+        "32": "Icons/32.png",
+        "16": "Icons/16.png"
+    }
+}

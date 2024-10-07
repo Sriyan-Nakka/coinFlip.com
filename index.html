@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dice Roll</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        #headCoin,
+        #tailCoin{
+          display: none;
+        }
+        body{
+          min-width: 350px;
+          font-family: "Ubuntu", sans-serif;
+          font-size: 62.5%;
+          font-size: 1.2rem;
+        }
+        img{
+          width: 100px;
+        }
+        </style>
+</head>
+<body>
+  <script src="script.js" defer>
+  </script>
+    <center>
+      <h1>🪙Welcome to Coin Flip!🪙</h1>
+      You can flip a coin which can give you Head or Tail. <br> <br>
+      <button id="flipCoinButton">Flip Coin</button> <br> <br>
+    <div id="images">
+        <img
+          src="Images/head.jpg"
+          alt="coin showing head"
+          id="headCoin"
+        />
+        <img
+          src="Images/tail.jpg"
+          alt="coin showing tail"
+          id="tailCoin"
+        />
+      </div>
+      <br />
+    </center>
+</body>
+</html>
